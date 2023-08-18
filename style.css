@@ -272,8 +272,13 @@ footer p {
         justify-content: center;
     }
 
+    .servicesBg {
+        height: 50vh;
+    }
+
     .servicesBg h1 {
         font-size: 40px;
+        margin-top: 50px;
     }
 
     .navBarContainer {
