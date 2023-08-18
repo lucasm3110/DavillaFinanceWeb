@@ -199,7 +199,7 @@ hr {
     background-color: rgba(248, 248, 248, 0.453);
     margin: 50px 50px;
     /* border: 1px solid rgba(0, 0, 0, 0.102); */
-    padding: 50px 20px;
+    padding: 20px 20px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.095);
     transition: all 0.3s ease;
     position: relative;
@@ -221,6 +221,7 @@ hr {
 
 .serviceBox h2 {
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 790px) {
