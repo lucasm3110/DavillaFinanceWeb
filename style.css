@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth !important;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    background-color: black;
+    width: 4%;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.frontContent {
+    height: 100vh;
+}
+
+.backImage {
+    background-image: url('/img/bg.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -10;
+}
+
+.navBarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    flex-wrap: wrap;
+    height: auto;
+    padding-left: 16px;
+    padding-right: 30px;
+    padding-top: 27px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+.side {
+    margin-top: 10px;
+    display: flex;
+}
+
+.side img {
+    height: 78px;
+}
+
+.side a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1.7px;
+    font-weight: 700;
+}
+
+.links a {
+    min-width: 97px;
+    display: inline-block;
+}
+
+.side a:hover {
+    text-decoration: underline;
+}
+
+.frontTexts {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.frontTexts h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 300;
+}
+
+.frontTexts h1 {
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    line-height: 1.25;
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.frontTextsContainer {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#bottomText {
+    margin-bottom: 70px;
+}
+
+.frontTexts a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 20px 50px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.frontTexts a:hover {
+    background-color: white;
+    color: black;
+}
+
+#services {
+    transition: all 0.3s ease;
+}
+
+#services h1 {
+    letter-spacing: 2px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    line-height: 1.25;
+    font-size: 43px;
+    text-align: center;
+}
+
+#about {
+    transition: all 0.3s ease;
+}
+
+#about h1 {
+    letter-spacing: 2px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    line-height: 1.25;
+    font-size: 43px;
+    text-align: center;
+}
+
+.imageThing img {
+    height: 200px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.imageThing p {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25.6px;
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+
+.servicesContainer {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.serviceBox {
+    height: 100px;
+    width: 100px;
+    border: 1px solid green;
+    margin: 30px 50px;
+}
+
+@media screen and (max-width: 690px) {
+    .navBarContainer {
+        justify-content: center;
+    }
+
+    .navBarContainer {
+        width: 100%;
+    }
+
+    hr {
+        width: 10%;
+    }
+
+    #services h1 {
+        font-size: 32px;
+    }
+
+    #about h1 {
+        font-size: 32px;
+    }
+
+    .side a {
+        font-weight: 400;
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin: 0 auto;
+    }
+
+    .lineBreak {
+        flex-basis: 100%;
+        height: 0;
+    }
+
+    .frontTexts {
+        margin-top: 200px;
+    }
+
+    .frontTexts h1 {
+        font-size: 40px;
+    }
+
+    .frontTexts a {
+        padding: 20px 50px;
+    }
+
+    .imageThing img {
+        height: 120px;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+}
