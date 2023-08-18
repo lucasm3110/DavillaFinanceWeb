@@ -179,8 +179,8 @@ hr {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 25.6px;
-    margin-bottom: 70px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .servicesContainer {
@@ -223,6 +223,28 @@ hr {
     margin-bottom: 20px;
     font-size: 20px;
 }
+
+.footerContainer {
+    width: 100%;
+    height: 300px;
+    background-color: #e9e7e1;
+    position: relative;
+}
+
+footer img {
+    height: 150px;
+    display: flex;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    padding: 30px;
+}
+
+.footerLinks {
+    text-align: center;
+    position: absolute;
+}
+
 
 @media screen and (max-width: 790px) {
     .navBarContainer {
@@ -274,7 +296,6 @@ hr {
         height: 120px;
         display: flex;
         margin: 0 auto;
-        margin-top: 30px;
     }
 
     .servicesContainer {
