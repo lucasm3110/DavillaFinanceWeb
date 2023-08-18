@@ -35,6 +35,29 @@ hr {
     z-index: -10;
 }
 
+.servicesBg {
+    background-image: url('/img/pool.png');
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    z-index: -10;
+}
+
+.servicesBg h1 {
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    line-height: 1.25;
+    font-size: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
 .navBarContainer {
     display: flex;
     align-items: center;
@@ -226,29 +249,31 @@ hr {
 
 .footerContainer {
     width: 100%;
-    height: 300px;
+    height: auto;
     background-color: #e9e7e1;
     position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 footer img {
     height: 150px;
     display: flex;
-    position: absolute;
     margin: 0 auto;
-    bottom: 0;
-    padding: 30px;
 }
 
-.footerLinks {
+footer p {
     text-align: center;
-    position: absolute;
 }
 
 
 @media screen and (max-width: 790px) {
     .navBarContainer {
         justify-content: center;
+    }
+
+    .servicesBg h1 {
+        font-size: 40px;
     }
 
     .navBarContainer {
