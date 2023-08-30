@@ -266,6 +266,76 @@ footer p {
     text-align: center;
 }
 
+.sectionBg {
+    width: 100%;
+    height: auto;
+    background-image: url('/img/topView.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.doubleSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.sec {
+    height: 300px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.967);
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.392);
+}
+
+.sec h1 {
+    letter-spacing: 2px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    line-height: 1.25;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sec p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 25.6px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sec a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 13px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.sec a:hover {
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+}
+
 
 @media screen and (max-width: 790px) {
     .navBarContainer {
@@ -325,6 +395,10 @@ footer p {
     }
 
     .servicesContainer {
+        width: 90%;
+    }
+
+    .sec {
         width: 90%;
     }
 
