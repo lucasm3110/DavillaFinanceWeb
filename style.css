@@ -314,10 +314,6 @@ footer p {
         margin-top: 70px;
     }
 
-    .frontTexts h1 {
-        font-size: 40px;
-    }
-
     .frontTexts a {
         padding: 20px 50px;
     }
@@ -337,6 +333,29 @@ footer p {
 @media screen and (max-width: 1300px) {
     .frontTexts h1 {
         font-size: 40px;
+    }
+
+    .navBarContainer {
+        justify-content: center;
+    }
+
+    .frontTexts h1 {
+        font-size: 50px;
+    }
+
+
+}
+
+@media screen and (max-width: 350px) {
+    .links a {
+        max-width: 80px;
+        display: block;
+        margin-top: 10px;
+    }
+
+
+    .frontTexts {
+        margin-top: 30px;
     }
 
 }
