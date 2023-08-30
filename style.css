@@ -38,7 +38,8 @@ hr {
 .servicesBg {
     background-image: url('/img/pool.png');
     width: 100%;
-    height: 80vh;
+    height: auto;
+    padding-bottom: 40px;
     background-size: cover;
     background-position: center;
     z-index: -10;
@@ -137,6 +138,13 @@ hr {
 
 #bottomText {
     margin-bottom: 70px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
 }
 
 .frontTexts a {
@@ -336,23 +344,65 @@ footer p {
     background-color: black;
 }
 
+.servicesText,
+ul {
+    margin: 0 auto;
+    padding: 50px;
+}
+
+li {
+    line-height: 35px;
+}
+
+.textContainer {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.servicesButton a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 13px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.servicesButton a:hover {
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+}
+
+.servicesButton {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.servicesFront {
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 @media screen and (max-width: 790px) {
-    .navBarContainer {
-        justify-content: center;
-    }
 
     .servicesBg {
         height: 50vh;
     }
 
+    .textContainer,
+    li {
+        width: 100%;
+        margin: 0 auto;
+    }
+
     .servicesBg h1 {
         font-size: 40px;
         margin-top: 50px;
-    }
-
-    .navBarContainer {
-        width: 100%;
     }
 
     hr {
@@ -392,10 +442,6 @@ footer p {
         height: 120px;
         display: flex;
         margin: 0 auto;
-    }
-
-    .servicesContainer {
-        width: 90%;
     }
 
     .sec {
